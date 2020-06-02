@@ -1,8 +1,10 @@
 from flask import Flask, render_template, url_for, request, redirect
+from flask_analytics import Analytics
 import csv
 
 app = Flask(__name__)
-
+Analytics(app)
+app.config['ANALYTICS']['GAUGES']['SITE_ID'] = '234599346'
 
 @app.route('/')
 def my_home():
