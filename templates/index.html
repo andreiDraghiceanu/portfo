@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168231005-1"></script>
   <script>
@@ -9,6 +9,7 @@
 
     gtag('config', 'UA-168231005-1');
   </script>
+
 <head>
   <meta charset="UTF-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
@@ -43,13 +44,15 @@
 <link href="./static/style.css" rel="stylesheet"></head>
 
 <body class="minimal">
+
+<div id="particles-js"></div>
 <div id="site-border-left"></div>
 <div id="site-border-right"></div>
 <div id="site-border-top"></div>
 <div id="site-border-bottom"></div>
 <!-- Add your content of header -->
 <header>
-  <nav class="navbar  navbar-fixed-top navbar-inverse">
+  <nav class="navbar navbar-fixed-top navbar-inverse">
     <div class="container">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
@@ -72,27 +75,6 @@
   </nav>
 </header>
 <!-- Add your site or app content here -->
-  <div class="hero-full-container background-image-container white-text-container" style="background-image: url('./static/assets/images/space.jpg')">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="hero-full-wrapper">
-            <div class="text-content">
-              <h1>Hello,<br>
-                <span id="typed-strings">
-                  <span>I'm Andrei Draghiceanu</span>
-                  <span>Automation Engineer</span>
-                  <span>This is my Station</span>
-                </span>
-                <span id="typed"></span>
-              </h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
      type();
@@ -100,7 +82,8 @@
   });
 </script>
 
-
-<script type="text/javascript" src="./static/script.js"></script></body>
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script type="text/javascript" src="./static/script.js"></script>
+</body>
 
 </html>
