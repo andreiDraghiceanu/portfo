@@ -31,7 +31,8 @@ canvas {
   background-image: url("/static/assets/images/logo_transparent.png");
   background-repeat: no-repeat;
   background-size: 20%;
-  background-position: 50% 10%;
+  background-transparent: 20%;
+  background-position: 50% 20%;
 }
 .count-particles {
   background: #000022;
