@@ -5963,5 +5963,9 @@ textarea {
 	margin-right: 5px
 }
 
+.ws:before {
+    content: "\00a0      "
+}
+
 
 /*# sourceMappingURL=main.70a66962.map*/
